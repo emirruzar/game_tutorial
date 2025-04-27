@@ -33,8 +33,6 @@ public class PlayerAnimationController : MonoBehaviour
     private void ResetJumping()
     {
         _playerAnimator.SetBool(Consts.PlayerAnimations.IS_JUMPING, false);
-
-        
     }
 
     private void SetPlayerAnimations()
