@@ -25,6 +25,8 @@ public class RottenWheatCollectible : MonoBehaviour, ICollectible
 
         CameraShake.Instance.ShakeCamera(0.5f, 0.5f);
 
+        AudioManager.Instance.Play(SoundType.PickupBadSound);
+
         Destroy(gameObject);
     }
 }
