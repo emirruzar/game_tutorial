@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
 
     private void HealthManager_OnPlayerDeath()
     {
-        StartCoroutine(OnGameOver()); //playerTransform, isCatCatched
+        throw new NotImplementedException();
     }
 
     private void OnEnable()
